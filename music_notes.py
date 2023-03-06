@@ -44,7 +44,7 @@ key = {
 #  print("\n".join(new_values))
 
 import os
-PATH = "c:/Users/22082/Documents/codesbackup/"
+PATH = "G:/Desktop01/codesbackup/"
 for filename in os.listdir(PATH):
     file_input = open(os.path.join(PATH, 'notes_input.txt')) #.read()
 new_file = ""
